@@ -49,6 +49,7 @@ function PricingCard({ title, description, price, features, icon: Icon }) {
             <CardHeader>
                 <div className="flex items-center justify-center gap-2">
                     <Icon className="h-7 w-7 text-green-600" />
+
                     <CardTitle className='text-center text-xl text-black'>{title}</CardTitle>
                 </div>
                 <CardDescription>{description}</CardDescription>
